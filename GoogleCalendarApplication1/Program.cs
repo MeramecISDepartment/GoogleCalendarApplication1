@@ -191,7 +191,7 @@ namespace GoogleCalendarApplication1
                 // This is based on the tutorial here:
                 //https://developers.google.com/google-apps/calendar/create-events
                 //Event newEvent = new Event()
-                //    .setSummary("Meeting with Prof. Oberst")
+                //    .setSummary("Meeting with Prof. Oberst") 
                 //    .setLocation("11333 Big Bend Rd, St. Louis, MO 63122")
                 //    .setDescription("This meeting will discuss how far I've gotten with Google Calendar API.");
             }
