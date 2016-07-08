@@ -1,4 +1,7 @@
-﻿using Google.Apis.Auth.OAuth2;
+//This code was copied from the Google Calendar API .Net Quickstart tutorial, here: 
+//https://developers.google.com/google-apps/calendar/quickstart/dotnet
+
+using Google.Apis.Auth.OAuth2;
 using Google.Apis.Calendar.v3;
 using Google.Apis.Calendar.v3.Data;
 using Google.Apis.Services;
