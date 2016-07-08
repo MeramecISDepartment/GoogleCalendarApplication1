@@ -1,6 +1,8 @@
 //This code was copied from the Google Calendar API .Net Quickstart tutorial, here: 
 //https://developers.google.com/google-apps/calendar/quickstart/dotnet
 
+//This version of the project will be for adding an event to Google Calendar.
+
 using Google.Apis.Auth.OAuth2;
 using Google.Apis.Calendar.v3;
 using Google.Apis.Calendar.v3.Data;
