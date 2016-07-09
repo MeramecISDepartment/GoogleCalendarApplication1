@@ -1,0 +1,14 @@
+﻿<AllEvents>
+    <Events month="July 2016">
+        <Event>
+            <EventDate label="Mon. 11th">2016-07-11</EventDate>
+            <EventTitle>Meeting with Prof. Oberst</EventTitle>
+            <EventLocation>Meramec Community College</EventLocation>
+            <EventDescription>
+              <p>In this meeting, Prof. Oberst and I will discuss my progress with the Google Calendar API application.</p>
+              <p>It will go from 3pm until 5pm.</p>
+            </EventDescription>
+            <EventTime>3:00pm</EventTime>
+            </Event>
+    </Events>
+</AllEvents>
