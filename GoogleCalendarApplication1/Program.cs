@@ -62,139 +62,139 @@ namespace GoogleCalendarApplication1
                 ApplicationName = ApplicationName,
             });
 
-            //These are variables for storing a simple event. 
-            string yesOrNo = "";
-            string eventName = "";
-            string eventDescription = "";
-            string startDate = "";
-            string endDate = "";
+            ////These are variables for storing a simple event. 
+            //string yesOrNo = "";
+            //string eventName = "";
+            //string eventDescription = "";
+            //string startDate = "";
+            //string endDate = "";
 
-            int eventCount = 0;
+            //int eventCount = 0;
 
-            bool isTrue = true;
-
-
-
-            while (isTrue == true)
-            {
-                string welcomeMessage = "";
+            //bool isTrue = true;
 
 
-                if (eventCount > 0)
-                {
-                    welcomeMessage = "Would you like to add another event to your Google Calendar (Y/N)?\n";
+
+            //while (isTrue == true)
+            //{
+            //    string welcomeMessage = "";
+
+
+            //    if (eventCount > 0)
+            //    {
+            //        welcomeMessage = "Would you like to add another event to your Google Calendar (Y/N)?\n";
+            //    }
+            //    else if (eventCount == 0)
+            //    {
+            //        welcomeMessage = "Would you like to add an event to your Google Calendar (Y/N)?\n";
+            //    }
+
+            //    Console.WriteLine(welcomeMessage);
+            //    yesOrNo = Console.ReadLine();
+
+            //    if (yesOrNo == "Y" || yesOrNo == "y")
+            //    {
+            //        bool noName = true;
+
+            //        while (noName == true)
+            //        {
+            //            Console.WriteLine("\nWhat will the name of your event be?\n");
+            //            eventName = Console.ReadLine();
+
+            //            if (eventName == "")
+            //            {
+            //                Console.WriteLine("\nYou must enter a name for your event.\n");
+            //            }
+            //            else
+            //            {
+            //                noName = false;
+
+            //                bool noDescription = true;
+
+            //                while (noDescription == true)
+            //                {
+            //                    Console.WriteLine("\nWhat will the description of your event be?\n");
+            //                    eventDescription = Console.ReadLine();
+
+            //                    if (eventDescription == "")
+            //                    {
+            //                        Console.WriteLine("\nYou must enter a description for your event.\n");
+            //                    }
+            //                    else
+            //                    {
+            //                        noDescription = false;
+
+            //                        bool noStart = true;
+
+            //                        while (noStart == true)
+            //                        {
+            //                            Console.WriteLine("\nWhat is the start date and time of your event?\n");
+            //                            startDate = Console.ReadLine();
+
+            //                            if (startDate == "")
+            //                            {
+            //                                Console.WriteLine("\nYou must enter a start date and time.\n");
+            //                            }
+            //                            else
+            //                            {
+            //                                noStart = false;
+
+            //                                bool noEnd = true;
+
+            //                                while (noEnd == true)
+            //                                {
+            //                                    Console.WriteLine("\nWhat is the end date and time of your event?\n");
+            //                                    endDate = Console.ReadLine();
+
+            //                                    if (endDate == "")
+            //                                    {
+            //                                        Console.WriteLine("\nYou must enter an end date for your event.\n");
+            //                                    }
+            //                                    else
+            //                                    {
+            //                                        string readyToAdd = "";
+
+            //                                        noEnd = false;
+            //                                        Console.WriteLine("\nAre you ready to add your event (Y/N)?\n");
+            //                                        readyToAdd = Console.ReadLine();
+
+            //                                        if (readyToAdd == "Y" || readyToAdd == "y")
+            //                                        {
+            //                                            eventCount++;
+            //                                            Console.WriteLine("\nYou have added the following event to your Google Calendar: \n Title: " + eventName + "\n Description: " + eventDescription +
+            //                                                "\n Start Date: " + startDate + "\n End Date:" + endDate + "\n");
+            //                                        }
+            //                                    }
+
+            //                                }
+
+            //                            }
+            //                        }
+
+            //                    }
+            //                }
+            //            }
+            //            }
+            //    }
+            //    else if (yesOrNo == "N" || yesOrNo == "n")
+            //    {
+            //        Console.WriteLine("Thank you.  Your program is exiting.");
+            //        System.Environment.Exit(1);
+            //        isTrue = false;
+            //    }
+            //    else
+            //    {
+            //        Console.WriteLine("You must give a valid input of  Y, y, N, or n.");
                 }
-                else if (eventCount == 0)
-                {
-                    welcomeMessage = "Would you like to add an event to your Google Calendar (Y/N)?\n";
-                }
 
-                Console.WriteLine(welcomeMessage);
-                yesOrNo = Console.ReadLine();
-
-                if (yesOrNo == "Y" || yesOrNo == "y")
-                {
-                    bool noName = true;
-
-                    while (noName == true)
-                    {
-                        Console.WriteLine("\nWhat will the name of your event be?\n");
-                        eventName = Console.ReadLine();
-
-                        if (eventName == "")
-                        {
-                            Console.WriteLine("\nYou must enter a name for your event.\n");
-                        }
-                        else
-                        {
-                            noName = false;
-
-                            bool noDescription = true;
-
-                            while (noDescription == true)
-                            {
-                                Console.WriteLine("\nWhat will the description of your event be?\n");
-                                eventDescription = Console.ReadLine();
-
-                                if (eventDescription == "")
-                                {
-                                    Console.WriteLine("\nYou must enter a description for your event.\n");
-                                }
-                                else
-                                {
-                                    noDescription = false;
-
-                                    bool noStart = true;
-
-                                    while (noStart == true)
-                                    {
-                                        Console.WriteLine("\nWhat is the start date and time of your event?\n");
-                                        startDate = Console.ReadLine();
-
-                                        if (startDate == "")
-                                        {
-                                            Console.WriteLine("\nYou must enter a start date and time.\n");
-                                        }
-                                        else
-                                        {
-                                            noStart = false;
-
-                                            bool noEnd = true;
-
-                                            while (noEnd == true)
-                                            {
-                                                Console.WriteLine("\nWhat is the end date and time of your event?\n");
-                                                endDate = Console.ReadLine();
-
-                                                if (endDate == "")
-                                                {
-                                                    Console.WriteLine("\nYou must enter an end date for your event.\n");
-                                                }
-                                                else
-                                                {
-                                                    string readyToAdd = "";
-
-                                                    noEnd = false;
-                                                    Console.WriteLine("\nAre you ready to add your event (Y/N)?\n");
-                                                    readyToAdd = Console.ReadLine();
-
-                                                    if (readyToAdd == "Y" || readyToAdd == "y")
-                                                    {
-                                                        eventCount++;
-                                                        Console.WriteLine("\nYou have added the following event to your Google Calendar: \n Title: " + eventName + "\n Description: " + eventDescription +
-                                                            "\n Start Date: " + startDate + "\n End Date:" + endDate + "\n");
-                                                    }
-                                                }
-
-                                            }
-
-                                        }
-                                    }
-
-                                }
-                            }
-                        }
-                        }
-                }
-                else if (yesOrNo == "N" || yesOrNo == "n")
-                {
-                    Console.WriteLine("Thank you.  Your program is exiting.");
-                    System.Environment.Exit(1);
-                    isTrue = false;
-                }
-                else
-                {
-                    Console.WriteLine("You must give a valid input of  Y, y, N, or n.");
-                }
-
-                // Insert an event.
-                // This is based on the tutorial here:
-                //https://developers.google.com/google-apps/calendar/create-events
-                //Event newEvent = new Event()
-                //    .setSummary("Meeting with Prof. Oberst") 
-                //    .setLocation("11333 Big Bend Rd, St. Louis, MO 63122")
-                //    .setDescription("This meeting will discuss how far I've gotten with Google Calendar API.");
-            }
+        // Insert an event.
+        // This is based on the tutorial here:
+        //https://developers.google.com/google-apps/calendar/create-events
+        //Event newEvent = new Event()
+            .setSummary("Meeting with Prof. Oberst")
+            .setLocation("11333 Big Bend Rd, St. Louis, MO 63122")
+            .setDescription("This meeting will discuss how far I've gotten with Google Calendar API.");
+    }
         }
     }
 }
